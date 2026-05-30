@@ -649,7 +649,11 @@ export default function Page() {
 
       <BackgroundScene />
 
-      <main className="relative z-10">
+      
+<div className="fixed inset-0 z-0 opacity-20 bg-center bg-cover"
+style={{backgroundImage:"url('https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1200&auto=format&fit=crop')"}} />
+
+<main className="relative z-10">
         <section className="relative flex min-h-screen items-center overflow-hidden px-6 py-20 md:px-10 lg:px-14">
           <div className="absolute inset-0 bg-radial-royal" />
           <Orb className="left-8 top-24" size={18} delay={0} />
@@ -682,7 +686,7 @@ export default function Page() {
                 transition={{ delay: 0.25 }}
                 className="mt-6 max-w-2xl text-lg font-medium uppercase tracking-[0.25em] text-slate-300 md:text-xl"
               >
-                Developer. Architect. Automation Engineer.
+                Разработчик. Архитектор. Инженер автоматизации.
               </motion.p>
 
               <motion.p
@@ -691,7 +695,7 @@ export default function Page() {
                 transition={{ delay: 0.35 }}
                 className="mt-6 max-w-2xl text-base leading-8 text-slate-300/90 md:text-lg"
               >
-                I build systems. I automate businesses. I create digital products.
+                Я создаю системы. Автоматизирую бизнес. Разрабатываю цифровые продукты.
                 This is not a freelance page. This is a private operating system for a technology empire.
               </motion.p>
 
@@ -763,7 +767,7 @@ export default function Page() {
           <div className="mx-auto max-w-7xl">
             <SectionTitle
               eyebrow="Capabilities"
-              title="Luxury engineering services"
+              title="Премиальные инженерные решения"
               subtitle="Each module is presented like a high-security command asset, not a standard portfolio card."
             />
             <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-3">
