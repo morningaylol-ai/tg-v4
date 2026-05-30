@@ -1,7 +1,5 @@
 # BEL_MONARH Portfolio
 
-Ready-to-deploy Next.js 15 portfolio for Vercel.
-
 ## Install
 ```bash
 npm install
@@ -15,3 +13,5 @@ npm run build
 
 ## Deploy to Vercel
 Push this folder to GitHub and import it in Vercel.
+
+This version pins React Three Fiber v9 and Drei v10 for React 19 compatibility.

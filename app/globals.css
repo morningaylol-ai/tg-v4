@@ -26,19 +26,3 @@ body {
   background: rgba(212, 175, 55, 0.28);
   color: #fff6d6;
 }
-
-@layer utilities {
-  .text-glow {
-    text-shadow: 0 0 18px rgba(212, 175, 55, 0.35);
-  }
-
-  .glass {
-    background: rgba(255, 255, 255, 0.04);
-    backdrop-filter: blur(24px);
-    -webkit-backdrop-filter: blur(24px);
-  }
-
-  .royal-border {
-    border: 1px solid rgba(255, 255, 255, 0.1);
-  }
-}
